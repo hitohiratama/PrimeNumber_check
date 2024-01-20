@@ -32,7 +32,7 @@ namespace 素数フォーム
             }
         }
  // フォームからデータを受け取る.
- //strからintに変換
+ //strからintに変換.
         private void Primenum_check_Click(object sender, EventArgs e)
         {
             Int32.TryParse(Input_date.Text, out int Anwer);
